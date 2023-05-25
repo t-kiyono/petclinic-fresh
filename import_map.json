@@ -1,13 +1,35 @@
 {
   "imports": {
+    "~/": "./",
+    "dotenv-load": "https://deno.land/std@0.183.0/dotenv/load.ts",
     "$fresh/": "https://deno.land/x/fresh@1.1.5/",
+    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.2.3",
+    "@preact/signals": "https://esm.sh/*@preact/signals@1.1.3",
+    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@5.2.6",
     "preact": "https://esm.sh/preact@10.13.1",
     "preact/": "https://esm.sh/preact@10.13.1/",
-    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@5.2.6",
-    "@preact/signals": "https://esm.sh/*@preact/signals@1.1.3",
-    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.2.3",
     "twind": "https://esm.sh/twind@0.16.19",
     "twind/": "https://esm.sh/twind@0.16.19/",
-    "dotenv-load": "https://deno.land/std@0.183.0/dotenv/load.ts"
+    "@tanstack/react-query": "https://esm.sh/v116/*@tanstack/react-query@4.29.3",
+    "@trpc/client": "https://esm.sh/v116/*@trpc/client@10.21.0",
+    "@trpc/client/": "https://esm.sh/v116/*@trpc/client@10.21.0/",
+    "@trpc/react-query": "https://esm.sh/v116/*@trpc/react-query@10.21.0",
+    "@trpc/react-query/": "https://esm.sh/v116/*@trpc/react-query@10.21.0/",
+    "@trpc/server": "https://esm.sh/v116/@trpc/server@10.21.0",
+    "@trpc/server/": "https://esm.sh/v116/@trpc/server@10.21.0/",
+    "superjson": "https://esm.sh/v116/*superjson@1.12.3",
+    "zod": "https://esm.sh/v116/zod@3.21.4",
+    "zod/": "https://esm.sh/v116/zod@3.21.4/"
+  },
+  "scopes": {
+    "https://esm.sh/v116/": {
+      "@tanstack/query-core": "https://esm.sh/v116/@tanstack/query-core@4.29.1",
+      "copy-anything": "https://esm.sh/v116/copy-anything@3.0.3",
+      "loose-envify": "https://esm.sh/v116/loose-envify@1.4.0",
+      "use-sync-external-store": "https://esm.sh/v116/use-sync-external-store@1.2.0",
+      "use-sync-external-store/": "https://esm.sh/v116/use-sync-external-store@1.2.0/",
+      "react": "https://esm.sh/v116/react@18.2.0",
+      "react/": "https://esm.sh/v116/react@18.2.0/"
+    }
   }
 }

@@ -1,5 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 import Counter from "../islands/Counter.tsx";
+import OwnersList from "../islands/Owners.tsx";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           file, and refresh.
         </p>
         <Counter start={3} />
+        <OwnersList lastName="" />
       </div>
     </>
   );
